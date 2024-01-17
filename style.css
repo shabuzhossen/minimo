@@ -1,0 +1,64 @@
+/* @font-face {
+  font-family: opensans-light ;
+  src: url(fonts/open-sans/opensans-light.ttf);
+}
+@font-face {
+  font-family: opensans-bold;
+  src: url(fonts/open-sans/opensans-bold.ttf);
+}
+@font-face {
+  font-family: opensans-regular;
+  src: url(fonts/open-sans/opensans-regular.ttf);
+} */
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  padding: 20px;
+}
+.container{
+  width: 90%;
+  /* border: 1px solid; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo{
+  float: left;
+  width: 10%;
+  /* border: 1px solid red; */
+  padding: 12px;
+}
+.logo img{
+  width: 100%;
+
+}
+.logo img a{}
+
+.menu{
+  float: right;
+  width: 65%;
+  /* border: 1px solid red; */
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  margin: ;
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  margin:0 88px ;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{}
+
